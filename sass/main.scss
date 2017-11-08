@@ -1,0 +1,416 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+$deep-blue: #33529a;
+$dark-blue: #253f7b;
+$btn-color: #204498;
+$main-color: #34559f;
+$white-blue: #a4b9e3;
+$dark-grey: #97a0b9;
+$grey: #cfcfcf;
+$light-gray: #e9effc;
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'IdealistLight';
+    font-size: 116px;
+    color: white;
+}
+
+h2 {
+    font-family: 'ProximaNovaReg';
+    font-size: 34px;
+    margin-top: 30px;
+}
+
+h3 {
+    font-family: 'ProximaNovaBold';
+    font-size: 38px;
+    letter-spacing: 0.02em;
+    line-height: 42px;
+}
+
+h4 {
+    font-family: 'ProximaNovaBold';
+    font-size: 22px;
+    letter-spacing: 0.02em;
+    color: $main-color;
+}
+
+p {
+    font-family: 'ProximaNovaLight';
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    line-height: 24px;
+}
+
+strong {
+    font-family: 'ProximaNovaBold';
+}
+
+.button-square {
+    background-color: $btn-color;
+    font-family: 'ProximaNovaBold';
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.bigbtn {
+    @extend .button-square;
+    padding: 18px 40px;
+}
+
+.smlbtn {
+    @extend .button-square;
+    padding: 18px 11px 18px 19px;
+    height: 55px;
+    img {
+        float: right;
+    }
+}
+
+.button-circle {
+    background: transparent;
+    border: solid 2px $grey;
+    border-radius: 15px;
+    font-family: 'ProximaNovaBold';
+    font-size: 13px;
+    letter-spacing: 0.06em;
+    color: $grey;
+    padding: 6px 15px;
+    margin: 0px 3px;
+    outline: none;
+    &:hover {
+        color: $main-color;
+        border: solid 2px $main-color;
+    }
+    // &:active {
+    //     color: #B25500;
+    // }
+    &:focus {
+        color: white;
+        background: $main-color;
+        border: solid 2px $main-color;
+    }
+}
+
+.container {
+    max-width: 1140px;
+}
+
+.main-menu {
+    height: 56px;
+    background-color: $deep-blue;
+    color: white;
+    display: flex;
+    img {
+        margin-right: 16px;
+    }
+    ul {
+        float: right;
+        letter-spacing: 0.02em;
+        // display: table-cell;
+    }
+    li {
+        display: inline-block;
+        // display: table-cell;
+    }
+    div {
+        margin: auto;
+    }
+    a {
+        @extend p;
+        color: white;
+        border-bottom: solid 1px $white-blue;
+        text-decoration: none;
+        &:hover {
+            border-bottom: none;
+        }
+    }
+}
+
+.hab {
+    display: flex;
+    img {
+        margin: auto 0px;
+        margin-right: 16px;
+    }
+    p {
+        margin: auto 0px;
+    }
+}
+
+.logo {
+    // display: table-cell;
+    margin: auto;
+}
+
+.phones {
+    font-family: 'IdealistRegular';
+    font-size: 24px;
+}
+
+.sub-menu {
+    height: 100px;
+    color: white;
+    font-family: 'ProximaNovaLight';
+    font-size: 18px;
+    a {
+        color: white;
+        border-bottom: solid 1px $white-blue;
+        text-decoration: none;
+        &:hover {
+            border-bottom: none;
+        }
+    }
+}
+
+.itm {
+    margin-top: 50px;
+    padding: 0px 0px 0px 20px;
+    border-left: solid 2px $dark-blue;
+}
+
+.face {
+    height: 850px;
+    background: url('../img/bg1.jpg') no-repeat center center;
+}
+
+.house {
+    height: 750px;
+    background: url('../img/HOUSE.png') no-repeat bottom center;
+    color: white;
+    padding-top: 100px;
+    p {
+        font-family: 'ProximaNovaReg';
+        font-size: 14px;
+        letter-spacing: 0.04em;
+        margin-top: 16px;
+    }
+}
+
+.left {
+    text-align: right;
+}
+
+.offer {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.hed {
+    height: 107px;
+    background-color: $main-color;
+    display: flex;
+    // padding: 0px;
+    p {
+        margin: auto auto auto 0px;
+        color: white;
+    }
+    img {
+        text-align: right;
+        margin: auto 0px auto auto;
+    }
+}
+
+.bod {
+    height: 190px;
+    padding-top: 35px;
+}
+
+.central {
+    display: flex;
+    padding-right: 90px;
+    h1 {
+        margin: auto;
+        float: left;
+    }
+    p {
+        margin: auto;
+        color: white;
+    }
+}
+
+.blue {
+    background-color: $main-color;
+    padding: 0px 17px 0px 15px;
+    color: white;
+}
+
+.test {
+    margin-top: 30px;
+}
+
+#advantages {
+    margin-top: 70px;
+    line-height: 0;
+    p {
+        margin-top: 30px;
+    }
+}
+
+.txt {
+    padding: 50px 22px;
+}
+
+.action {
+    height: 200px;
+    text-align: center;
+    padding-top: 60px;
+    p {
+        margin-top: 20px;
+    }
+}
+
+.calc {
+    height: 800px;
+    padding: 110px 0px;
+    font-family: 'ProximaNovaBold';
+    font-size: 16px;
+    color: $main-color;
+}
+
+.points {
+    padding: 15px 0px;
+}
+
+.small-slider {
+    height: 290px;
+    background-color: yellowgreen;
+}
+
+.built {
+    height: 290px;
+    text-align: left;
+    color: $main-color;
+    padding: 50px 0px;
+    h3 {
+        border-bottom: 3px solid $main-color;
+        margin-bottom: 25px;
+        padding-bottom: 25px;
+        // float: left;
+    }
+}
+
+.stages {
+    h1 {
+        display: inline-block;
+        float: left;
+    }
+    p {
+        // color: $main-color;
+        // color: $dark-grey;
+        margin-top: 20px;
+    }
+}
+
+.numbers {
+    margin: 50px 0px;
+}
+
+.gray {
+    color: $dark-grey;
+}
+
+.main-color {
+    color: $main-color;
+}
+
+.liner {
+    border-top: solid 3px $dark-grey;
+}
+
+.liner-blue {
+    border-top: solid 3px $main-color;
+}
+
+textarea {
+    resize: none;
+    overflow: auto;
+    border: solid 2px $main-color;
+}
+
+input {
+    border: solid 2px $main-color;
+    height: 40px;
+    width: 260px;
+    margin-bottom: 50px;
+}
+
+.terms {
+    height: 600px;
+    background-color: $light-gray;
+    text-align: center;
+    padding-top: 185px;
+}
+
+.time {
+    display: inline-block;
+    // padding: 
+}
+
+.triangle {
+    display: block;
+    margin: auto;
+}
+
+.rotate {
+    transform: scale(1, -1);
+}
+
+.small-slider {
+    height: 290px;
+    background-color: yellowgreen;
+}
+
+.rew {
+    background-color: #34559f;
+    padding: 120px 100px 150px 40px;
+    color: white;
+    h2 {
+        border-bottom: solid;
+        padding-bottom: 23px;
+    }
+    p {
+        padding-top: 17px;
+    }
+    a {
+        color: white;
+        border-bottom: solid 1px $white-blue;
+        text-decoration: none;
+        &:hover {
+            border-bottom: none;
+        }
+    }
+}
+
+.act {
+    padding: 100px 40px 0px 40px;
+}
+
+.licence {
+    color: $main-color;
+    padding: 140px 0px;
+    img {
+        display: block;
+        margin-bottom: 27px;
+    }
+    p {
+        margin-top: 10px;
+    }
+}
+
+.footer {
+    background-color: $main-color;
+    height: 340px;
+    color: white;
+    padding-top: 120px;
+}

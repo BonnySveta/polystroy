@@ -1,0 +1,534 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, .main-menu a, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 15, ../sass/main.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 19, ../sass/main.scss */
+h1 {
+  font-family: 'IdealistLight';
+  font-size: 116px;
+  color: white;
+}
+
+/* line 25, ../sass/main.scss */
+h2 {
+  font-family: 'ProximaNovaReg';
+  font-size: 34px;
+  margin-top: 30px;
+}
+
+/* line 31, ../sass/main.scss */
+h3 {
+  font-family: 'ProximaNovaBold';
+  font-size: 38px;
+  letter-spacing: 0.02em;
+  line-height: 42px;
+}
+
+/* line 38, ../sass/main.scss */
+h4 {
+  font-family: 'ProximaNovaBold';
+  font-size: 22px;
+  letter-spacing: 0.02em;
+  color: #34559f;
+}
+
+/* line 45, ../sass/main.scss */
+p, .main-menu a {
+  font-family: 'ProximaNovaLight';
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  line-height: 24px;
+}
+
+/* line 52, ../sass/main.scss */
+strong {
+  font-family: 'ProximaNovaBold';
+}
+
+/* line 56, ../sass/main.scss */
+.button-square, .bigbtn, .smlbtn {
+  background-color: #204498;
+  font-family: 'ProximaNovaBold';
+  font-size: 15px;
+  letter-spacing: 0.02em;
+  color: white;
+  outline: none;
+  border: none;
+}
+
+/* line 66, ../sass/main.scss */
+.bigbtn {
+  padding: 18px 40px;
+}
+
+/* line 71, ../sass/main.scss */
+.smlbtn {
+  padding: 18px 11px 18px 19px;
+  height: 55px;
+}
+/* line 75, ../sass/main.scss */
+.smlbtn img {
+  float: right;
+}
+
+/* line 80, ../sass/main.scss */
+.button-circle {
+  background: transparent;
+  border: solid 2px #cfcfcf;
+  border-radius: 15px;
+  font-family: 'ProximaNovaBold';
+  font-size: 13px;
+  letter-spacing: 0.06em;
+  color: #cfcfcf;
+  padding: 6px 15px;
+  margin: 0px 3px;
+  outline: none;
+}
+/* line 91, ../sass/main.scss */
+.button-circle:hover {
+  color: #34559f;
+  border: solid 2px #34559f;
+}
+/* line 98, ../sass/main.scss */
+.button-circle:focus {
+  color: white;
+  background: #34559f;
+  border: solid 2px #34559f;
+}
+
+/* line 105, ../sass/main.scss */
+.container {
+  max-width: 1140px;
+}
+
+/* line 109, ../sass/main.scss */
+.main-menu {
+  height: 56px;
+  background-color: #33529a;
+  color: white;
+  display: flex;
+}
+/* line 114, ../sass/main.scss */
+.main-menu img {
+  margin-right: 16px;
+}
+/* line 117, ../sass/main.scss */
+.main-menu ul {
+  float: right;
+  letter-spacing: 0.02em;
+}
+/* line 122, ../sass/main.scss */
+.main-menu li {
+  display: inline-block;
+}
+/* line 126, ../sass/main.scss */
+.main-menu div {
+  margin: auto;
+}
+/* line 129, ../sass/main.scss */
+.main-menu a {
+  color: white;
+  border-bottom: solid 1px #a4b9e3;
+  text-decoration: none;
+}
+/* line 134, ../sass/main.scss */
+.main-menu a:hover {
+  border-bottom: none;
+}
+
+/* line 140, ../sass/main.scss */
+.hab {
+  display: flex;
+}
+/* line 142, ../sass/main.scss */
+.hab img {
+  margin: auto 0px;
+  margin-right: 16px;
+}
+/* line 146, ../sass/main.scss */
+.hab p, .hab .main-menu a, .main-menu .hab a {
+  margin: auto 0px;
+}
+
+/* line 151, ../sass/main.scss */
+.logo {
+  margin: auto;
+}
+
+/* line 156, ../sass/main.scss */
+.phones {
+  font-family: 'IdealistRegular';
+  font-size: 24px;
+}
+
+/* line 161, ../sass/main.scss */
+.sub-menu {
+  height: 100px;
+  color: white;
+  font-family: 'ProximaNovaLight';
+  font-size: 18px;
+}
+/* line 166, ../sass/main.scss */
+.sub-menu a {
+  color: white;
+  border-bottom: solid 1px #a4b9e3;
+  text-decoration: none;
+}
+/* line 170, ../sass/main.scss */
+.sub-menu a:hover {
+  border-bottom: none;
+}
+
+/* line 176, ../sass/main.scss */
+.itm {
+  margin-top: 50px;
+  padding: 0px 0px 0px 20px;
+  border-left: solid 2px #253f7b;
+}
+
+/* line 182, ../sass/main.scss */
+.face {
+  height: 850px;
+  background: url("../img/bg1.jpg") no-repeat center center;
+}
+
+/* line 187, ../sass/main.scss */
+.house {
+  height: 750px;
+  background: url("../img/HOUSE.png") no-repeat bottom center;
+  color: white;
+  padding-top: 100px;
+}
+/* line 192, ../sass/main.scss */
+.house p, .house .main-menu a, .main-menu .house a {
+  font-family: 'ProximaNovaReg';
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  margin-top: 16px;
+}
+
+/* line 200, ../sass/main.scss */
+.left {
+  text-align: right;
+}
+
+/* line 204, ../sass/main.scss */
+.offer {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* line 209, ../sass/main.scss */
+.hed {
+  height: 107px;
+  background-color: #34559f;
+  display: flex;
+}
+/* line 214, ../sass/main.scss */
+.hed p, .hed .main-menu a, .main-menu .hed a {
+  margin: auto auto auto 0px;
+  color: white;
+}
+/* line 218, ../sass/main.scss */
+.hed img {
+  text-align: right;
+  margin: auto 0px auto auto;
+}
+
+/* line 224, ../sass/main.scss */
+.bod {
+  height: 190px;
+  padding-top: 35px;
+}
+
+/* line 229, ../sass/main.scss */
+.central {
+  display: flex;
+  padding-right: 90px;
+}
+/* line 232, ../sass/main.scss */
+.central h1 {
+  margin: auto;
+  float: left;
+}
+/* line 236, ../sass/main.scss */
+.central p, .central .main-menu a, .main-menu .central a {
+  margin: auto;
+  color: white;
+}
+
+/* line 242, ../sass/main.scss */
+.blue {
+  background-color: #34559f;
+  padding: 0px 17px 0px 15px;
+  color: white;
+}
+
+/* line 248, ../sass/main.scss */
+.test {
+  margin-top: 30px;
+}
+
+/* line 252, ../sass/main.scss */
+#advantages {
+  margin-top: 70px;
+  line-height: 0;
+}
+/* line 255, ../sass/main.scss */
+#advantages p, #advantages .main-menu a, .main-menu #advantages a {
+  margin-top: 30px;
+}
+
+/* line 260, ../sass/main.scss */
+.txt {
+  padding: 50px 22px;
+}
+
+/* line 264, ../sass/main.scss */
+.action {
+  height: 200px;
+  text-align: center;
+  padding-top: 60px;
+}
+/* line 268, ../sass/main.scss */
+.action p, .action .main-menu a, .main-menu .action a {
+  margin-top: 20px;
+}
+
+/* line 273, ../sass/main.scss */
+.calc {
+  height: 800px;
+  padding: 110px 0px;
+  font-family: 'ProximaNovaBold';
+  font-size: 16px;
+  color: #34559f;
+}
+
+/* line 281, ../sass/main.scss */
+.points {
+  padding: 15px 0px;
+}
+
+/* line 285, ../sass/main.scss */
+.small-slider {
+  height: 290px;
+  background-color: yellowgreen;
+}
+
+/* line 290, ../sass/main.scss */
+.built {
+  height: 290px;
+  text-align: left;
+  color: #34559f;
+  padding: 50px 0px;
+}
+/* line 295, ../sass/main.scss */
+.built h3 {
+  border-bottom: 3px solid #34559f;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+}
+
+/* line 304, ../sass/main.scss */
+.stages h1 {
+  display: inline-block;
+  float: left;
+}
+/* line 308, ../sass/main.scss */
+.stages p, .stages .main-menu a, .main-menu .stages a {
+  margin-top: 20px;
+}
+
+/* line 315, ../sass/main.scss */
+.numbers {
+  margin: 50px 0px;
+}
+
+/* line 319, ../sass/main.scss */
+.gray {
+  color: #97a0b9;
+}
+
+/* line 323, ../sass/main.scss */
+.main-color {
+  color: #34559f;
+}
+
+/* line 327, ../sass/main.scss */
+.liner {
+  border-top: solid 3px #97a0b9;
+}
+
+/* line 331, ../sass/main.scss */
+.liner-blue {
+  border-top: solid 3px #34559f;
+}
+
+/* line 335, ../sass/main.scss */
+textarea {
+  resize: none;
+  overflow: auto;
+  border: solid 2px #34559f;
+}
+
+/* line 341, ../sass/main.scss */
+input {
+  border: solid 2px #34559f;
+  height: 40px;
+  width: 260px;
+  margin-bottom: 50px;
+}
+
+/* line 348, ../sass/main.scss */
+.terms {
+  height: 600px;
+  background-color: #e9effc;
+  text-align: center;
+  padding-top: 185px;
+}
+
+/* line 355, ../sass/main.scss */
+.time {
+  display: inline-block;
+}
+
+/* line 360, ../sass/main.scss */
+.triangle {
+  display: block;
+  margin: auto;
+}
+
+/* line 365, ../sass/main.scss */
+.rotate {
+  transform: scale(1, -1);
+}
+
+/* line 369, ../sass/main.scss */
+.small-slider {
+  height: 290px;
+  background-color: yellowgreen;
+}
+
+/* line 374, ../sass/main.scss */
+.rew {
+  background-color: #34559f;
+  padding: 120px 100px 150px 40px;
+  color: white;
+}
+/* line 378, ../sass/main.scss */
+.rew h2 {
+  border-bottom: solid;
+  padding-bottom: 23px;
+}
+/* line 382, ../sass/main.scss */
+.rew p, .rew .main-menu a, .main-menu .rew a {
+  padding-top: 17px;
+}
+/* line 385, ../sass/main.scss */
+.rew a {
+  color: white;
+  border-bottom: solid 1px #a4b9e3;
+  text-decoration: none;
+}
+/* line 389, ../sass/main.scss */
+.rew a:hover {
+  border-bottom: none;
+}
+
+/* line 395, ../sass/main.scss */
+.act {
+  padding: 100px 40px 0px 40px;
+}
+
+/* line 399, ../sass/main.scss */
+.licence {
+  color: #34559f;
+  padding: 140px 0px;
+}
+/* line 402, ../sass/main.scss */
+.licence img {
+  display: block;
+  margin-bottom: 27px;
+}
+/* line 406, ../sass/main.scss */
+.licence p, .licence .main-menu a, .main-menu .licence a {
+  margin-top: 10px;
+}
+
+/* line 411, ../sass/main.scss */
+.footer {
+  background-color: #34559f;
+  height: 340px;
+  color: white;
+  padding-top: 120px;
+}
