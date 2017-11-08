@@ -8,8 +8,7 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/jquery.spincrement.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
-    <script type="text/javascript" src="js/imagesloaded.pkd.min.js"></script>
-    <script type="text/javascript" src="js/jquery.hslider.js"></script>
+    <script type="text/javascript" src="js/jquery.carouFredSel-6.0.4.js"></script>
     <link rel="stylesheet" href="css\bootstrap.min.css">
     <link rel="stylesheet" href="css\font.css">
     <link rel="stylesheet" href="css\main.css">
@@ -54,7 +53,7 @@
                     </div>
 
                     <div class="itm col-sm-6 col-md-4 col-lg-4">
-                        Наш инженер выезжает на место ttt </br> будущей стройки бесплатно
+                        Наш инженер выезжает на место </br> будущей стройки бесплатно
                     </div>
 
                     <div class="itm col-sm-12 col-md-4 col-lg-4">
@@ -68,11 +67,11 @@
                         </div>
                     </div>
                     <div class="col-sm-8 col-md-8 col-lg-8">
-                        <!-- <h2> Скидка на дом из цельного бруса под ключ. </br> Строй зимой выгодно. </h2> -->
+                        <h2> Скидка на дом из цельного бруса под ключ. </br> Строй зимой выгодно. </h2>
                     </div>
                     <div class="offer col-sm-12 col-md-12 col-lg-12">
-                        <button class="bigbtn">ЗАКАЗАТЬ РАСЧЁТ щ8нг98н СТРОИТЕЛЬСТВА</button>
-                        <!-- <p>Скидка действует до 20 октября 2017 года </p> -->
+                        <button class="bigbtn">ЗАКАЗАТЬ РАСЧЁТ СТРОИТЕЛЬСТВА</button>
+                        <p>Скидка действует до 20 октября 2017 года </p>
                     </div>
                 </div>
             </div>
@@ -137,10 +136,10 @@
                 <!-- secton -->
                 <div class="row">
                     <div class="central test col-sm-12 col-md-4 col-lg-4">
-                        <button class="smlbtn">    
+                        <a href="#home"><button class="smlbtn">
                                 ПЕРЕЙТИ К НАШИМ ДОМАМ 
                                 <img src="img/icons/down_white.png" alt="">
-                            </button>
+                            </button></a>
                     </div>
                     <div class="hed col-sm-1 col-md-1 col-lg-1">
                         <img src="img/icons/direct.png" alt="">
@@ -323,29 +322,24 @@
                 </div>
             </div>
         </section>
+
         <!-- SLIDER -->
+        <a name="home"></a>
         <section>
             <div class="slider">
-                <div class="hsldr-container" >
-                    <figure>
-                        <img src="img/1.jpg" />
-                        <figcaption>Car in the snow</figcaption>
-                    </figure>
-                    <figure class=" active-slide">
-                        <img src="img/2.jpg" />
-                        <figcaption>People surfing</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="img/3.jpg" />
-                        <figcaption>People surfing</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="img/4.jpg" />
-                        <figcaption>People surfing</figcaption>
-                    </figure>
+                <div id="wrapper">
+                    <div id="carousel">
+                        <img src="img/1.jpg" alt="building1" width="945px" height="420px" />
+                        <img src="img/2.jpg" alt="building2" width="945px" height="420px" />
+                        <img src="img/3.jpg" alt="building3" width="945px" height="420px" />
+                        <img src="img/4.jpg" alt="building4" width="945px" height="420px" />
+                    </div>
+                    <a href="#" class="hsldr-prev"> </a>
+                    <a href="#" class="hsldr-next"> </a>
                 </div>
             </div>
         </section>
+
         <!-- BUILD -->
         <section>
             <div class="built">
@@ -517,31 +511,21 @@
     </section>
     <!-- REW -->
     <section>
-        <div class="container">
-            <div class="row ">
-                <div class="small-slider">
-                    <div class="hsldr-container">
-                        <figure>
-                            <img src="img/1.jpg" />
-                            <figcaption>Car in the snow</figcaption>
-                        </figure>
-                        <figure class=" active-slide">
-                            <img src="img/2.jpg" />
-                            <figcaption>People surfing</figcaption>
-                        </figure>
-                        <figure>
-                            <img src="img/3.jpg" />
-                            <figcaption>People surfing</figcaption>
-                        </figure>
-                        <figure>
-                            <img src="img/4.jpg" />
-                            <figcaption>People surfing</figcaption>
-                        </figure>
+        <div class="container1">
+            <div class="row1 ">
+                <div id="wrapper2">
+                    <!--Атрибут data ссылается на тег с таким же атрибутом-->
+                    <div id="carousel2">
+                        <img src="img/1.jpg" data="1" width="945px" height="420px" />
+                        <img src="img/2.jpg" data="2" width="945px" height="420px" />
+                        <img src="img/3.jpg" data="3" width="945px" height="420px" />
+                        <img src="img/4.jpg" data="4" width="945px" height="420px" />
                     </div>
-
+                    <a href="#" class="hsldr-prev"> </a>
+                    <a href="#" class="hsldr-next"> </a>
                 </div>
             </div>
-            <div class="row ">
+            <div class="container row ">
                 <div class="rew col-sm-5 col-md-5 col-lg-5">
                     <h2>
                         Отзывы клиентов
@@ -552,10 +536,19 @@
                     </p>
                 </div>
                 <div class="act col-sm-7 col-md-7 col-lg-7">
-                    <p>
+                    <p data="1">
                         Прошел год после строительства нашего дома, претензий особых нет. Пока не обнаружилось ни скрипов, ни трещин в материале. Брус был завезен весь светлый, ровный, без сучков и сухой. Строители позаботились и о хранении, укладывали аккуратно и накрывали
                         пленкой на случай дождя. От бригады зависит многое! Построили аккуратно и ровно. За дополнительную плату мы заказывали дополнительные услуги - замену оконных пакетов на двухкамерные и металлической кровли на мягкую. Теперь благодарны
                         за данный совет. Планируем на следующее лето баньку заказывать, невозможно отказать себе в таком удовольствии, да и собирается быстро.
+                    </p>
+                    <p data="2" style="display: none;">
+                        Пупкин рассказывает как ему понравилсь
+                    </p>
+                    <p data="3" style="display: none;">
+                        И этому тоже очень понравилось
+                    </p>
+                    <p data="4" style="display: none;">
+                        И мне
                     </p>
                 </div>
             </div>
@@ -568,14 +561,14 @@
             <div class="container">
                 <div class="row ">
                     <div class="co12-sm-12 col-md-6 col-lg-6">
-                        <img src="img/build/HOUSE 5.png" alt="">
+                        <img src="img/lic.jpg" alt="">
                         <strong> ЛИЦЕНЗИЯ </strong>
                         <p>
                             На проведение строительных работ
                         </p>
                     </div>
                     <div class="co12-sm-12 col-md-6 col-lg-6">
-                        <img src="img/build/HOUSE 5.png" alt="">
+                        <img src="img/lic.jpg" alt="">
                         <strong> ЛИЦЕНЗИЯ </strong>
                         <p>
                             На проведение строительных работ
