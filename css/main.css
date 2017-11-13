@@ -150,7 +150,7 @@ strong {
   font-size: 13px;
   letter-spacing: 0.06em;
   color: #cfcfcf;
-  padding: 6px 15px;
+  padding: 6px 14px;
   margin: 0px 3px;
   outline: none;
 }
@@ -369,79 +369,84 @@ strong {
 .calc {
   height: 800px;
   padding: 110px 0px;
+}
+/* line 276, ../sass/main.scss */
+.calc p, .calc .main-menu a, .main-menu .calc a {
   font-family: 'ProximaNovaBold';
   font-size: 16px;
+  display: inline-block;
+  margin-right: 25px;
   color: #34559f;
 }
 
-/* line 281, ../sass/main.scss */
+/* line 285, ../sass/main.scss */
 .points {
   padding: 15px 0px;
 }
 
-/* line 285, ../sass/main.scss */
+/* line 289, ../sass/main.scss */
 .small-slider {
   height: 290px;
   background-color: yellowgreen;
 }
 
-/* line 290, ../sass/main.scss */
+/* line 294, ../sass/main.scss */
 .built {
   height: 290px;
   text-align: left;
   color: #34559f;
   padding: 50px 0px;
 }
-/* line 295, ../sass/main.scss */
+/* line 299, ../sass/main.scss */
 .built h3 {
   border-bottom: 3px solid #34559f;
   margin-bottom: 25px;
   padding-bottom: 25px;
 }
 
-/* line 304, ../sass/main.scss */
+/* line 308, ../sass/main.scss */
 .stages h1 {
   display: inline-block;
   float: left;
 }
-/* line 308, ../sass/main.scss */
+/* line 312, ../sass/main.scss */
 .stages p, .stages .main-menu a, .main-menu .stages a {
   margin-top: 20px;
 }
 
-/* line 315, ../sass/main.scss */
+/* line 319, ../sass/main.scss */
 .numbers {
   margin: 50px 0px;
 }
 
-/* line 319, ../sass/main.scss */
+/* line 323, ../sass/main.scss */
 .gray {
   color: #97a0b9;
 }
 
-/* line 323, ../sass/main.scss */
+/* line 327, ../sass/main.scss */
 .main-color {
   color: #34559f;
 }
 
-/* line 327, ../sass/main.scss */
+/* line 331, ../sass/main.scss */
 .liner {
   border-top: solid 3px #97a0b9;
 }
 
-/* line 331, ../sass/main.scss */
+/* line 335, ../sass/main.scss */
 .liner-blue {
   border-top: solid 3px #34559f;
 }
 
-/* line 335, ../sass/main.scss */
+/* line 339, ../sass/main.scss */
 textarea {
   resize: none;
   overflow: auto;
   border: solid 2px #34559f;
 }
 
-/* line 341, ../sass/main.scss */
+/* line 345, ../sass/main.scss */
 input {
   border: solid 2px #34559f;
   height: 40px;
@@ -449,7 +454,7 @@ input {
   margin-bottom: 50px;
 }
 
-/* line 348, ../sass/main.scss */
+/* line 352, ../sass/main.scss */
 .terms {
   height: 600px;
   background-color: #e9effc;
@@ -457,75 +462,76 @@ input {
   padding-top: 185px;
 }
 
-/* line 355, ../sass/main.scss */
+/* line 359, ../sass/main.scss */
 .time {
   display: inline-block;
 }
 
-/* line 360, ../sass/main.scss */
+/* line 364, ../sass/main.scss */
 .triangle {
   display: block;
   margin: auto;
 }
 
-/* line 365, ../sass/main.scss */
+/* line 369, ../sass/main.scss */
 .rotate {
   transform: scale(1, -1);
 }
 
-/* line 369, ../sass/main.scss */
+/* line 373, ../sass/main.scss */
 .small-slider {
   height: 290px;
   background-color: yellowgreen;
 }
 
-/* line 374, ../sass/main.scss */
+/* line 378, ../sass/main.scss */
 .rew {
   background-color: #34559f;
   padding: 120px 100px 150px 40px;
   color: white;
 }
-/* line 378, ../sass/main.scss */
+/* line 382, ../sass/main.scss */
 .rew h2 {
   border-bottom: solid;
   padding-bottom: 23px;
 }
-/* line 382, ../sass/main.scss */
+/* line 386, ../sass/main.scss */
 .rew p, .rew .main-menu a, .main-menu .rew a {
   padding-top: 17px;
 }
-/* line 385, ../sass/main.scss */
+/* line 389, ../sass/main.scss */
 .rew a {
   color: white;
   border-bottom: solid 1px #a4b9e3;
   text-decoration: none;
 }
-/* line 389, ../sass/main.scss */
+/* line 393, ../sass/main.scss */
 .rew a:hover {
   border-bottom: none;
 }
 
-/* line 395, ../sass/main.scss */
+/* line 399, ../sass/main.scss */
 .act {
   padding: 100px 40px 0px 40px;
 }
 
-/* line 399, ../sass/main.scss */
+/* line 403, ../sass/main.scss */
 .licence {
   color: #34559f;
   padding: 140px 0px;
 }
-/* line 402, ../sass/main.scss */
+/* line 406, ../sass/main.scss */
 .licence img {
   display: block;
   margin-bottom: 27px;
+  max-height: 77px;
 }
-/* line 406, ../sass/main.scss */
+/* line 411, ../sass/main.scss */
 .licence p, .licence .main-menu a, .main-menu .licence a {
   margin-top: 10px;
 }
 
-/* line 411, ../sass/main.scss */
+/* line 416, ../sass/main.scss */
 .footer {
   background-color: #34559f;
   height: 340px;

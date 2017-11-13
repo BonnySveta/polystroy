@@ -85,7 +85,7 @@ strong {
     font-size: 13px;
     letter-spacing: 0.06em;
     color: $grey;
-    padding: 6px 15px;
+    padding: 6px 14px;
     margin: 0px 3px;
     outline: none;
     &:hover {
@@ -273,9 +273,13 @@ strong {
 .calc {
     height: 800px;
     padding: 110px 0px;
-    font-family: 'ProximaNovaBold';
-    font-size: 16px;
-    color: $main-color;
+    p {
+        font-family: 'ProximaNovaBold';
+        font-size: 16px;
+        display: inline-block;
+        margin-right: 25px;
+        color: $main-color;
+    }
 }
 
 .points {
